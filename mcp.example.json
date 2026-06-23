@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ms-todo": {
+      "command": "node",
+      "args": [
+        "/absolute/path/to/ms-todo-only-mcp/bin/ms-todo-mcp.mjs"
+      ]
+    }
+  }
+}

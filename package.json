@@ -1,0 +1,18 @@
+{
+  "name": "ms-todo-only-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal Microsoft To Do-only MCP wrapper around Softeria's Microsoft 365 MCP server.",
+  "bin": {
+    "ms-todo-only-mcp": "./bin/ms-todo-mcp.mjs"
+  },
+  "scripts": {
+    "start": "node ./bin/ms-todo-mcp.mjs",
+    "login": "node ./bin/ms-todo-login.mjs",
+    "logout": "node ./bin/ms-todo-mcp.mjs --logout",
+    "verify": "node ./bin/ms-todo-mcp.mjs --list-accounts",
+    "permissions": "node ./bin/ms-todo-mcp.mjs --list-permissions",
+    "http": "node ./bin/ms-todo-mcp.mjs --http localhost:3000"
+  }
+}
