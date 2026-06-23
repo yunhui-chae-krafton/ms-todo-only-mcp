@@ -79,6 +79,20 @@ MS365_MCP_TENANT_ID=consumers
 주의: client id는 public client id라 secret이 아닙니다. client secret은 만들거나 요구하지 마세요.
 ```
 
+## 생산성 다마고치로 쓰기
+
+Microsoft To Do를 데이터 소스로 사용해서 오늘 할 일 상태를 펫의 말투로 피드백받을 수 있습니다. MCP 연결 뒤 [prompts/productivity-pet.md](prompts/productivity-pet.md)의 프롬프트를 Claude, Codex, 또는 MCP를 지원하는 AI에 붙여넣으세요.
+
+바로 쓰는 요청 예시:
+
+```text
+Microsoft To Do에서 오늘 할 일을 확인해서 생산성 다마고치 모드로 피드백해줘.
+
+내 자기평가:
+- 집중도 4/10
+- 피로도 6/10
+```
+
 ## 설정
 
 기본 `.env.example`은 개인 Microsoft 계정용입니다.
